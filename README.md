@@ -1,14 +1,14 @@
-# FS040984-HUB-PSICOFLOW
+# PsicoFlow — Scaffold v0.1
 
-Repositório inicial criado automaticamente para receber o scaffold do projeto PsicoFlow.
+Scaffold inicial do projeto PsicoFlow (Fase 1): Login, Dashboard, Cadastro de pacientes, Banco e API.
 
-Este README foi criado para gerar o commit inicial. Vou criar o branch `scaffold/v0.1` e subir o scaffold (frontend + backend + docker + README detalhado) em seguida.
+Como rodar (desenvolvimento com Docker):
 
-Conteúdo a ser adicionado no branch `scaffold/v0.1`:
-- frontend/ (Vite + React + Tailwind)
-- backend/ (FastAPI + PostgreSQL)
-- docker-compose.yml
-- .env.example
-- README de instruções
+1. Copie .env.example para .env e ajuste variáveis (se necessário).
+2. docker compose up --build
 
-Se precisar de algo diferente, responda no chat antes de eu prosseguir com o push do scaffold.
+Admin seed:
+- email: admin@psicoflow.com
+- password: Senha123!
+
+Ver branch: scaffold/v0.1
